@@ -1,0 +1,53 @@
+.section-info-index{
+    padding: 50px 0 20px 0;
+    .wrapper{
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .flexIndex{
+        display: flex; 
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    li{
+        list-style: none;
+    }
+    ol{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .content{
+        padding: 0 90px;
+        box-sizing: border-box;
+    }
+    img{
+        width: 90px;
+        height: auto;
+        vertical-align: middle;
+    }
+    h5{
+        font-family: $fontBeba;
+        color: #000;
+        padding: 20px 0 10px 0;
+        margin: 0;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 100%;
+    }
+    p{
+        color: #000;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+    }
+    ol li{
+        width: 50%;
+        text-align: center;
+        border-right: thin solid #000;
+    }
+}

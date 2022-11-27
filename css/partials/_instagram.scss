@@ -1,0 +1,22 @@
+.section-instagram{
+    padding: 50px 0 20px 0;
+    .flexIndex{
+        display: flex; 
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 70px 0;
+    }
+    svg{
+        width: 40px;
+        height: auto;
+        fill: #000;
+    }
+    span{
+        margin: 0 0 0 20px;
+        font-size: 30px;
+        color: #000;
+        line-height: 100%;
+        text-decoration: none;
+    }
+}

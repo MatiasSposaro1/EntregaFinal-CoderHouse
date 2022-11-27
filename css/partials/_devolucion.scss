@@ -1,0 +1,16 @@
+.container2{
+    max-width: 700px;
+    width: 100%;
+    padding: 40px 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: $mainColor;
+
+    .title{
+        font-size: 7rem;
+        text-align: center;
+    }
+    .paragraph{
+        font-size: 1.5rem;
+    }
+}
